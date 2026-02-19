@@ -1,0 +1,17 @@
+# Sanal Ortam
+venv/
+.venv/
+
+# Derlenmiş Python Dosyaları
+__pycache__/
+*.pyc
+
+# Büyük Model Ağırlıkları (Sadece kodları yüklüyoruz)
+data/models/*.caffemodel
+data/models/*.prototxt
+
+# Kişisel Veriler (Yüz veritabanı boş gitmeli)
+data/known_faces.json
+
+# İşletim Sistemi Dosyaları
+.DS_Store

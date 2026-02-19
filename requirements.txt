@@ -1,0 +1,13 @@
+# Görüntü İşleme
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Sayısal Hesaplamalar (Sürüm sabitlemeyi gevşetiyoruz)
+numpy>=1.26.0
+
+# Derin Öğrenme
+tensorflow>=2.15.0
+keras>=2.15.0
+
+# Diğer
+scipy>=1.11.0
